@@ -515,8 +515,55 @@ a {
     background: #fff;
     color: #575f66;
     border: solid 1px #575f66;
+    cursor: pointer;
 }
 
 .member__control-next-btn {
     rotate: 180deg;
+}
+
+/* Install App */
+.install-app {
+    margin: 180px 0 85px;
+}
+
+.install-app__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.install-app__img {
+    display: block;
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.install-app__content {
+    width: 586px;
+}
+
+.install-app__heading,
+.install-app__desc {
+    color: #fff;
+}
+
+.install-app__desc {
+    margin-top: 18px;
+}
+
+.install-app__icons {
+    display: flex;
+    gap: 28px;
+    margin-top: 38px;
+}
+
+/* News */
+.news {
+    padding: 85px;
 }
